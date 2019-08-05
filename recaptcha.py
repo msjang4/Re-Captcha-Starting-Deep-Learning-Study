@@ -50,7 +50,7 @@ class RecaptchaSolver():
         self.BTN_DELAY = btn_delay
         self.OCR_N = ocr_n
         self.CLASS_DICT = { '주차':'parking meter', '요금' :'parking meter', '정산기':'parking meter','자풍':'car', '자동':'car', '자량' : 'car' , '차랑':'car', '차량': 'car', '오토바이':'motorcycle', '자전거': 'bicycle', '버스': 'bus', '신호': 'traffic light', '신호등':'traffic light', '소화전':'fire hydrant'}
-        self.BASE_PATH = 'C:/opcv/recapcha\\'
+        self.BASE_PATH = 'opcv'
         self.THRESHOLD = 0.1
         self.EXT = ext
         self.TEXT_PATH = self.BASE_PATH+'text.'+self.EXT
